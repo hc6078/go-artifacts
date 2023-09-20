@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// 分布式锁
+
 var Redis = redis.NewClient(&redis.Options{
 	Addr:     "localhost:6379",
 	Password: "", // no password set
