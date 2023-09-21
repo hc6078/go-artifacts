@@ -3,8 +3,8 @@ package crontab
 import (
 	"context"
 	"github.com/gogf/gf/v2/os/glog"
-	"github.com/hc6078/go-artifacts/sig"
 	"github.com/robfig/cron/v3"
+	"github.com/vrieske/go-artifacts/sig"
 	"log"
 	"sync"
 )

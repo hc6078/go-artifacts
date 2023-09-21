@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"github.com/golang/glog"
 	grecover "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
-	"github.com/hc6078/go-artifacts/sig"
+	"github.com/vrieske/go-artifacts/sig"
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
