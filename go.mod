@@ -1,4 +1,4 @@
-module github.com/hc6078/go-artifacts
+module github.com/vrieske/go-artifacts
 
 go 1.21.0
 
